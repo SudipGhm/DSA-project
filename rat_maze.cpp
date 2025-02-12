@@ -109,11 +109,11 @@ int main()
     for (int i = 0; i < n; i++)
         delete[] visArr[i];
     delete[] visArr;
+    cin.get();
     return 0;
 }
 
-/* code implements a backtracking solution to the Rat in a Maze problem, where the goal is to find a path from the
-top-left corner of a maze to the bottom-right corner while only moving through cells with 1 (valid path) */
+
 
 
 
